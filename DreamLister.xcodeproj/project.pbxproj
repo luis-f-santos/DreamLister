@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8AB903229C7F11009C2E0B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB902229C7F11009C2E0B /* ItemCell.swift */; };
 		BFD2AD722298BEF50047B316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2AD712298BEF50047B316 /* AppDelegate.swift */; };
 		BFD2AD742298BEF50047B316 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2AD732298BEF50047B316 /* MainViewController.swift */; };
 		BFD2AD772298BEF50047B316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD2AD752298BEF50047B316 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF8AB902229C7F11009C2E0B /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		BFD2AD6E2298BEF50047B316 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD2AD712298BEF50047B316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFD2AD732298BEF50047B316 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BFD2ADA92298F32E0047B316 /* MaterialView.swift */,
+				BF8AB902229C7F11009C2E0B /* ItemCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				BFD2AD722298BEF50047B316 /* AppDelegate.swift in Sources */,
 				BFD2ADA42298EBBF0047B316 /* Item+CoreDataClass.swift in Sources */,
 				BFD2ADAA2298F32E0047B316 /* MaterialView.swift in Sources */,
+				BF8AB903229C7F11009C2E0B /* ItemCell.swift in Sources */,
 				BFD2AD7A2298BEF50047B316 /* DreamLister.xcdatamodeld in Sources */,
 				BFD2ADA52298EBBF0047B316 /* Item+CoreDataProperties.swift in Sources */,
 			);
