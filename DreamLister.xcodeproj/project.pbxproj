@@ -19,6 +19,7 @@
 		BFD2ADA42298EBBF0047B316 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2ADA22298EBBF0047B316 /* Item+CoreDataClass.swift */; };
 		BFD2ADA52298EBBF0047B316 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2ADA32298EBBF0047B316 /* Item+CoreDataProperties.swift */; };
 		BFD2ADAA2298F32E0047B316 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2ADA92298F32E0047B316 /* MaterialView.swift */; };
+		BFF4D62822A84A2700A2CDCB /* imagePick.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF4D62722A84A2300A2CDCB /* imagePick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BFD2ADA32298EBBF0047B316 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BFD2ADA82298F2BF0047B316 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		BFD2ADA92298F32E0047B316 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		BFF4D62722A84A2300A2CDCB /* imagePick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagePick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				BFD2AD7B2298BEF50047B316 /* Assets.xcassets */,
 				BF8AB905229CC048009C2E0B /* red_tesla.jpg */,
 				BFD2ADA82298F2BF0047B316 /* tesla.jpg */,
+				BFF4D62722A84A2300A2CDCB /* imagePick.png */,
 				BFD2AD7D2298BEF50047B316 /* LaunchScreen.storyboard */,
 				BFD2AD802298BEF50047B316 /* Info.plist */,
 				BFD2AD782298BEF50047B316 /* DreamLister.xcdatamodeld */,
@@ -182,6 +185,7 @@
 				BFD2AD7C2298BEF50047B316 /* Assets.xcassets in Resources */,
 				BFD2AD772298BEF50047B316 /* Main.storyboard in Resources */,
 				BF8AB906229CC234009C2E0B /* red_tesla.jpg in Resources */,
+				BFF4D62822A84A2700A2CDCB /* imagePick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
