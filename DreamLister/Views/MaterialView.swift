@@ -20,7 +20,7 @@ extension UIView {
         }
         set {
             
-            materialKey = materialDesign
+            materialKey = newValue
             
             if materialKey {
                 

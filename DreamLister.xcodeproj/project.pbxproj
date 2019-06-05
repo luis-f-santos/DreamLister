@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF8AB903229C7F11009C2E0B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB902229C7F11009C2E0B /* ItemCell.swift */; };
+		BF8AB906229CC234009C2E0B /* red_tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8AB905229CC048009C2E0B /* red_tesla.jpg */; };
+		BF8AB909229CC64F009C2E0B /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8AB908229CC64F009C2E0B /* ItemDetailsViewController.swift */; };
 		BFD2AD722298BEF50047B316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2AD712298BEF50047B316 /* AppDelegate.swift */; };
 		BFD2AD742298BEF50047B316 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2AD732298BEF50047B316 /* MainViewController.swift */; };
 		BFD2AD772298BEF50047B316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD2AD752298BEF50047B316 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		BF8AB902229C7F11009C2E0B /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		BF8AB905229CC048009C2E0B /* red_tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_tesla.jpg; sourceTree = "<group>"; };
+		BF8AB908229CC64F009C2E0B /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		BFD2AD6E2298BEF50047B316 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD2AD712298BEF50047B316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFD2AD732298BEF50047B316 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -46,12 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF8AB907229CC5F0009C2E0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFD2AD732298BEF50047B316 /* MainViewController.swift */,
+				BF8AB908229CC64F009C2E0B /* ItemDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BFD2AD652298BEF50047B316 = {
 			isa = PBXGroup;
 			children = (
 				BFD2AD702298BEF50047B316 /* DreamLister */,
 				BFD2AD6F2298BEF50047B316 /* Products */,
-				BFD2ADA82298F2BF0047B316 /* tesla.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,10 +81,12 @@
 				BFD2ADA62298EBC80047B316 /* DataCoreManuaGenModel */,
 				BFD2ADA72298EC0D0047B316 /* DataCoreManualGen */,
 				BFD2ADAB2298F3330047B316 /* Views */,
-				BFD2AD712298BEF50047B316 /* AppDelegate.swift */,
-				BFD2AD732298BEF50047B316 /* MainViewController.swift */,
+				BF8AB907229CC5F0009C2E0B /* Controller */,
 				BFD2AD752298BEF50047B316 /* Main.storyboard */,
+				BFD2AD712298BEF50047B316 /* AppDelegate.swift */,
 				BFD2AD7B2298BEF50047B316 /* Assets.xcassets */,
+				BF8AB905229CC048009C2E0B /* red_tesla.jpg */,
+				BFD2ADA82298F2BF0047B316 /* tesla.jpg */,
 				BFD2AD7D2298BEF50047B316 /* LaunchScreen.storyboard */,
 				BFD2AD802298BEF50047B316 /* Info.plist */,
 				BFD2AD782298BEF50047B316 /* DreamLister.xcdatamodeld */,
@@ -167,6 +181,7 @@
 				BFD2AD7F2298BEF50047B316 /* LaunchScreen.storyboard in Resources */,
 				BFD2AD7C2298BEF50047B316 /* Assets.xcassets in Resources */,
 				BFD2AD772298BEF50047B316 /* Main.storyboard in Resources */,
+				BF8AB906229CC234009C2E0B /* red_tesla.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +198,7 @@
 				BFD2ADAA2298F32E0047B316 /* MaterialView.swift in Sources */,
 				BF8AB903229C7F11009C2E0B /* ItemCell.swift in Sources */,
 				BFD2AD7A2298BEF50047B316 /* DreamLister.xcdatamodeld in Sources */,
+				BF8AB909229CC64F009C2E0B /* ItemDetailsViewController.swift in Sources */,
 				BFD2ADA52298EBBF0047B316 /* Item+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
