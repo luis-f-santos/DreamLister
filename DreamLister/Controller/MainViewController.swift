@@ -87,6 +87,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
         
+        controller.delegate = self
         self.controller = controller
         
         do {
@@ -146,20 +147,33 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func generateTestData() {
         
-        let item = Item(context: context)
-        item.title = "MacBook Pro"
-        item.price = 1800
-        item.details = "Can't wait until the september event. Hope they relesase new MBPs"
+//        let item = Item(context: context)
+//        item.title = "MacBook Pro"
+//        item.price = 1800
+//        item.details = "Can't wait until the september event. Hope they relesase new MBPs"
+//
+//        let item2 = Item(context: context)
+//        item2.title = "Tesla Model S"
+//        item2.price = 100000
+//        item2.details = "My dream Electric Vehicle"
+//
+//        let item3 = Item(context: context)
+//        item3.title = "Nintendo Switch"
+//        item3.price = 300
+//        item3.details = "I want to play the new Smash Bros"
         
-        let item2 = Item(context: context)
-        item2.title = "Tesla Model S"
-        item2.price = 100000
-        item2.details = "My dream Electric Vehicle"
+        //Creating test data
+//        let store = Store(context: context)
+//        store.name = "Best Buy"
+//        let store2 = Store(context: context)
+//        store2.name = "Fry's Electronics"
+//        let store3 = Store(context: context)
+//        store3.name = "Target"
+//        let store4 = Store(context: context)
+//        store4.name = "Tesla Dealership"
+//        let store5 = Store(context: context)
+//        store5.name = "Amazon.com"
         
-        let item3 = Item(context: context)
-        item3.title = "Nintendo Switch"
-        item3.price = 300
-        item3.details = "I want to play the new Smash Bros"
         
         ad.saveContext()
         
